@@ -1,0 +1,53 @@
+.infos{
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 20%;
+}
+
+.icons{
+  text-align: left;
+}
+
+.desc{
+  text-align: left;
+  width: 100%;
+}
+
+.title{
+  text-align: left;
+  font-weight: bold;
+  font-size: 62px;
+  background-image: linear-gradient(to top, steelblue, turquoise);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  color: black;
+}
+  .rails{
+    display:none;
+  }
+  .graphql{
+    display:none;
+  }
+  .heroku{
+    display:none;
+  }
+  .ruby{
+    display:none;
+  }
+  .postgresql{
+    display:none;
+  }
+  .git{
+    display:none;
+  }
+  .laravel{
+    display:none;
+  }
+  .rspec{
+    display:none;
+  }
+  .go{
+    display:none;
+  }

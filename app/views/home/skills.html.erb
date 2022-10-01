@@ -1,0 +1,173 @@
+<div class=" infos">
+  <h1 class="title">Habilidades.</h1><br>
+  <div class="row">
+    <div class="col-md-auto col-lg-auto">
+      <div class="row">
+        <div class="col-md-4 col-lg-4 icons" onmouseover="showRails()" onmouseout="hideRails()">
+          <%= image_tag '/images/rails.svg', width: 64%>
+        </div>
+        <div class="col-md-4 col-lg-4 icons" onmouseover="showGraphql()" onmouseout="hideGraphql()">
+          <%= image_tag '/images/graphql.svg', width: 64%>
+        </div>
+        <div class="col-md-4 col-lg-4 icons"  onmouseover="showHeroku()" onmouseout="hideHeroku()">
+          <%= image_tag '/images/heroku.svg', width: 64%>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-4 col-lg-4 icons" onmouseover="showRuby()" onmouseout="hideRuby()">
+          <%= image_tag '/images/ruby.svg', width: 64%>
+        </div>
+        <div class="col-md-4 col-lg-4 icons" onmouseover="showPostgresql()" onmouseout="hidePostgresql()">
+          <%= image_tag '/images/postgresql.svg', width: 64%>
+        </div>
+        <div class="col-md-4 col-lg-4 icons" onmouseover="showGit()" onmouseout="hideGit()">
+          <%= image_tag '/images/git.svg', width: 64%>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-4 col-lg-4 icons" onmouseover="showLaravel()" onmouseout="hideLaravel()">
+          <%= image_tag '/images/laravel.svg', width: 64%>
+        </div>
+        <div class="col-md-4 col-lg-4 icons" onmouseover="showRspec()" onmouseout="hideRspec()">
+          <%= image_tag '/images/rspec.svg', width: 64%>
+        </div>
+        <div class="col-md-4 col-lg-4 icons" onmouseover="showGo()" onmouseout="hideGo()">
+          <%= image_tag '/images/go.svg', width: 64%>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-auto col-lg-auto desc">
+      <div class="rails">
+        Lorem ipsum rhoncus aenean interdum in neque viverra taciti aenean,<br>
+        ornare lacus litora est vivamus vehicula ante vestibulum<br>
+        himenaeos lobortis, mattis varius dictumst pretium rutrum mi class libero.<br>
+      </div>
+      <div class="graphql">
+        primis curabitur ipsum venenatis proin ultrices id ipsum <br>
+        vulputate quisque cursus, erat luctus<br>
+        mattis tempus integer tortor aenean interdum. neque dolor<br>
+        tincidunt hac taciti sollicitudin interdum massa
+      </div>
+      <div class="heroku">
+        Faucibus volutpat venenatis ac duis eros, sit tempus hendrerit quisque fermentum,<br>
+        sodales id potenti fringilla. pretium facilisis vehicula dolor tellus fame
+      </div>
+      <div class="ruby">
+        Ac convallis duis bibendum ad lacus. <br>
+        luctus non lacus est aliquam at etiam quisque dui<br>
+        ut, quisque fames habitant eleifend <br>
+        blandit interdum in ac diam, scelerisque egestas
+      </div>
+      <div class="postgresql">
+        non iaculis elit praesent lectus tristique. <br>
+        volutpat nam est suspendisse<br>
+        est phasellus egestas justo quisque lectus, <br>
+        suspendisse libero ipsum diam eros nisl cras posuere
+      </div>
+      <div class="git">
+        Tempus sagittis commodo sapien cursus tortor amet sapien cras sed, lobortis potenti <br>
+        litora tristique nibh sapien viverra dictum taciti, vel congue<br>
+         rutrum tincidunt adipiscing dui purus ac. primis torquent ut rutrum
+      </div>
+      <div class="laravel">
+        ultricies nullam conubia donec aptent risus etiam aenean tortor amet<br>
+        etiam consectetur velit et, erat habitant aptent duis<br>
+         posuere donec suspendisse aliquam ultricies etiam sollicitudin
+      </div>
+      <div class="rspec">
+        Neque suscipit felis duis praesent ipsum, erat lorem placerat leo<br>
+        fusce in sagittis suscipit consequat tempus fames, <br>
+        vulputate mauris neque vehicula ad sed luctus accumsan tempus
+      </div>
+      <div class="go">
+        conubia semper adipiscing. augue nisi tellus malesuada ornare elementum vulputate<br>
+        neque pharetra, nisl non ante hendrerit auctor hendrerit<br>
+        turpis vivamus quis, facilisis neque primis
+      </div>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript">
+  
+  let rails = document.querySelector(".rails")
+  let graphql = document.querySelector(".graphql")
+  let heroku = document.querySelector(".heroku")
+  let ruby = document.querySelector(".ruby")
+  let postgresql = document.querySelector(".postgresql")
+  let git = document.querySelector(".rails")
+  let laravel = document.querySelector(".laravel")
+  let rspec = document.querySelector(".rspec")
+  let go = document.querySelector(".go")
+
+  // mostra a rails
+  function showRails(){   
+    rails.style.display = "block";
+  }
+  // esconde a rails
+  function hideRails(){
+    rails.style.display = "none"; 
+  }
+  function showGraphql(){   
+    graphql.style.display = "block";
+  }
+  // esconde a graphql
+  function hideGraphql(){
+    graphql.style.display = "none"; 
+  }
+  function showHeroku(){   
+    heroku.style.display = "block";
+  }
+  // esconde a heroku
+  function hideHeroku(){
+    heroku.style.display = "none"; 
+  }
+  function showRuby(){   
+    ruby.style.display = "block";
+  }
+  // esconde a ruby
+  function hideRuby(){
+    ruby.style.display = "none"; 
+  }
+  function showPostgresql(){   
+    postgresql.style.display = "block";
+  }
+  // esconde a postgresql
+  function hidePostgresql(){
+    postgresql.style.display = "none"; 
+  }
+  function showGit(){   
+    git.style.display = "block";
+  }
+  // esconde a git
+  function hideGit(){
+    git.style.display = "none"; 
+  }
+  function showLaravel(){   
+    laravel.style.display = "block";
+  }
+  // esconde a laravel
+  function hideLaravel(){
+    laravel.style.display = "none"; 
+  }
+  function showRspec(){   
+    rspec.style.display = "block";
+  }
+  // esconde a rspec
+  function hideRspec(){
+    rspec.style.display = "none"; 
+  }
+  function showGo(){   
+    go.style.display = "block";
+  }
+  // esconde a go
+  function hideGo(){
+    go.style.display = "none"; 
+  }
+
+  $(document).on('turbolinks:load', function() {
+  // Should be called at each visit
+  })
+</script>
