@@ -28,6 +28,9 @@
 header{
   color: grey;
   padding: 20px;
+  margin-top: 20px;
+  margin-left: 180px;
+  margin-right: 180px;
   text-align: center;
 }
 
@@ -73,4 +76,9 @@ header{
 footer{
   text-align: center;
   padding: 20px;
+}
+
+.icon-home{
+  position: relative;
+  float: left;
 }

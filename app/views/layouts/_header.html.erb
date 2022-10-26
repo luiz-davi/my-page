@@ -1,7 +1,8 @@
 <header>
+  <%= link_to image_tag('/images/home.png', size: "40x40"), root_path,  class:"col-md-auto icon-home" %>
   <div class="row justify-content-md-center">
-    <%= link_to image_tag('/images/home.png', size: "30x30"), root_path,  class:"col-md-auto" %>
-    <%= link_to 'Habilidades', skills_path, class: "col-md-auto link-header" %>
-    <%= link_to 'Postifólio', root_path , class: "col-md-auto link-header" %>
+    <a class="col-md-auto link-header" data-turbolinks="false" href=<%= root_path%> >ABOUT</a>
+    <a class="col-md-auto link-header" data-turbolinks="false" href=<%= skills_path%> >SKILLS</a>
+    <a class="col-md-auto link-header" data-turbolinks="false" href=<%= root_path %> >PROJECTS</a>
   </div>
 </header>
