@@ -11,5 +11,6 @@ class HomeController < ApplicationController
 
   def download_apk
     send_file("#{Rails.root}/public/pdfs/curriculo.pdf")
+    # aaa
   end
 end
