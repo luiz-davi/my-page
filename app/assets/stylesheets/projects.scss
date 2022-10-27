@@ -1,0 +1,45 @@
+.projects{
+  margin-left: 200px;
+  margin-right: 100px;
+}
+.title-projects{
+  text-align: left;
+  font-weight: bold;
+  font-size: 62px;
+  background-image: linear-gradient(to top,#006400, #7CFC00);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: black;
+}
+
+.card-project{
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 20px;
+  background-color: #1C1C1C;
+  border-radius: 10px;
+  width: 350px;
+  height: 180px;
+}
+
+.demo{
+  color: #A9A9A9;
+  background-color: black;
+  border-radius: 5px;
+  border: 1px solid #A9A9A9;
+  width: 80px;
+  height: 35px;
+  margin-right: 10px;
+  text-align: center;
+  padding-top: 5px;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.demo:hover{
+  font-size: 16px;
+  border: 1px solid white;
+  color: white;
+  transform: scale(1.1);
+}

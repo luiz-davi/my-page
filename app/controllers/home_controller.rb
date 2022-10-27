@@ -12,4 +12,8 @@ class HomeController < ApplicationController
   def download_cv
     send_file("#{Rails.root}/public/pdfs/curriculo.pdf")
   end
+
+  def protectes
+    
+  end
 end
