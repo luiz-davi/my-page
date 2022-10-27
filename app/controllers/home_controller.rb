@@ -9,8 +9,7 @@ class HomeController < ApplicationController
     @historico_profissional = HistoricoProfissional.order(created_at: :desc)
   end
 
-  def download_apk
+  def download_cv
     send_file("#{Rails.root}/public/pdfs/curriculo.pdf")
-    # aaa
   end
 end
