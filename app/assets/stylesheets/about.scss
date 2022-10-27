@@ -1,0 +1,25 @@
+.title-about{
+  text-align: left;
+  margin-left: 150px;
+  font-weight: bold;
+  font-size: 62px;
+  background-image: linear-gradient(to top, #FF4500, #FFD700 );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  color: black;
+}
+
+.infos{
+  margin-left: 50%;
+  text-align: center;
+}
+
+.perfil{
+  border-radius: 20px;
+}
+
+.about{
+  text-align: justify;
+}

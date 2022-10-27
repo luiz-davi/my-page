@@ -4,4 +4,7 @@ class HomeController < ApplicationController
 
   def skills
   end
+
+  def about
+  end
 end
