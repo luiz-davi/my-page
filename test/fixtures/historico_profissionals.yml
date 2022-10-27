@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  funcao: MyString
+  empresa: MyString
+  cidade: MyString
+  estado: MyString
+  inicio: MyString
+  fim: MyString
+
+two:
+  funcao: MyString
+  empresa: MyString
+  cidade: MyString
+  estado: MyString
+  inicio: MyString
+  fim: MyString

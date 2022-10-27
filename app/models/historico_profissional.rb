@@ -1,0 +1,2 @@
+class HistoricoProfissional < ApplicationRecord
+end
